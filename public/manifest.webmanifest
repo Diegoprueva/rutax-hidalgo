@@ -1,0 +1,21 @@
+{
+  "name": "RutaX Hidalgo",
+  "short_name": "RutaX",
+  "description": "Descubre destinos y planea tu viaje por el estado de Hidalgo.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf7ec",
+  "theme_color": "#166534",
+  "categories": ["travel"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Planear viaje", "url": "./#/planificador" },
+    { "name": "Mi itinerario", "url": "./#/itinerario" }
+  ]
+}
